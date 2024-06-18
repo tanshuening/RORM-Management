@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "449052376267",
+    "project_id": "rorm-385b5",
+    "storage_bucket": "rorm-385b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449052376267:android:9771218ce0d06b48e5ef4e",
+        "android_client_info": {
+          "package_name": "com.example.rorm_management"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwDdunxuviU4RKuQ2CiOMmstusFnHiTBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
