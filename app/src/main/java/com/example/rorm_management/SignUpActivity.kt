@@ -13,10 +13,10 @@ import com.google.firebase.database.FirebaseDatabase
 
 class SignUpActivity : AppCompatActivity() {
 
-    private lateinit var email: String
-    private lateinit var password: String
     private lateinit var ownerName: String
     private lateinit var restaurantName: String
+    private lateinit var email: String
+    private lateinit var password: String
     private lateinit var auth: FirebaseAuth
     private lateinit var database: DatabaseReference
 

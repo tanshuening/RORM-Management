@@ -39,7 +39,7 @@ class LoginActivity : AppCompatActivity() {
             password = binding.password.text.toString().trim()
 
             if (email.isBlank() || password.isBlank()) {
-                Toast.makeText(this, "Please fill all details", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
             } else {
                 createUserAccount(email, password)
             }
