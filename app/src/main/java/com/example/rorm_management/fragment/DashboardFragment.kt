@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.rorm_management.MenuActivity
+import com.example.rorm_management.PromotionActivity
 import com.example.rorm_management.databinding.FragmentDashboardBinding
 
 class DashboardFragment : Fragment() {
@@ -55,7 +56,7 @@ class DashboardFragment : Fragment() {
 
         binding.informationLayout.setOnClickListener(informationClickListener)
         binding.informationIcon.setOnClickListener(informationClickListener)
-        binding.informationText.setOnClickListener(informationClickListener)
+        binding.informationText.setOnClickListener(informationClickListener)*/
 
         val promotionClickListener = View.OnClickListener {
             val intent = Intent(requireContext(), PromotionActivity::class.java)
@@ -64,7 +65,7 @@ class DashboardFragment : Fragment() {
 
         binding.promotionsLayout.setOnClickListener(promotionClickListener)
         binding.promotionsIcon.setOnClickListener(promotionClickListener)
-        binding.promotionsText.setOnClickListener(promotionClickListener)*/
+        binding.promotionsText.setOnClickListener(promotionClickListener)
     }
 
     companion object {
